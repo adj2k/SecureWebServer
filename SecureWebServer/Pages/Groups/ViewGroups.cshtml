@@ -1,0 +1,84 @@
+﻿@page
+@model ViewGroupsModel
+@{
+    ViewData["Title"] = "View Groups";
+}
+
+<h2>Your Groups</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Group Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.UserGroups.Any())
+        {
+            foreach (var group in Model.UserGroups)
+            {
+                <tr>
+                    <td>@group.GroupName</td>
+                    <td>@group.Description</td>
+                    <td>
+                        <form method="post" asp-page-handler="LeaveGroup">
+                            <input type="hidden" name="groupId" value="@group.GroupId" />
+                            <button type="submit" class="btn btn-danger">Leave</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">You are not a member of any groups yet.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Other Groups Available to Join</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Group Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.OtherGroups.Any())
+        {
+            foreach (var group in Model.OtherGroups)
+            {
+                <tr>
+                    <td>@group.GroupName</td>
+                    <td>@group.Description</td>
+                    <td>
+                        <form method="post" asp-page-handler="JoinGroup">
+                            <input type="hidden" name="groupId" value="@group.GroupId" />
+                            <button type="submit" class="btn btn-primary">Join</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No groups available to join.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}

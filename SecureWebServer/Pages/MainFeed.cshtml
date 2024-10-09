@@ -1,0 +1,213 @@
+﻿@page
+@model MainFeedModel
+@using System.Security.Claims
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Home Dashboard</h2>
+
+<!-- Display Data Section -->
+@if (Model.DataItems != null && Model.DataItems.Any())
+{
+    <div class="post-container">
+        @foreach (var item in Model.DataItems)
+        {
+            <div class="post">
+                <div class="d-flex justify-content-between align-items-center">
+                    <strong>@item.Creator?.UserName posted:</strong>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+                        if (userIdClaim != null && (item.CreatorId == int.Parse(userIdClaim.Value) || User.IsInRole("admin")))
+                        {
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@item.Id" style="display:inline;">
+                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this item?');">Delete</button>
+                            </form>
+
+                            <!-- View button -->
+                            <button type="button" class="view-button" onclick="showMetadata(@item.Id)">View</button>
+                        }
+                    }
+                </div>
+
+                <p>@item.ItemDescription</p>
+
+                @if (!string.IsNullOrEmpty(item.FileName))
+                {
+                    <div class="media-container">
+                        @if (item.FileType.StartsWith("image/"))
+                        {
+                            <img src="@Url.Content("~/uploads/" + item.FileName)" alt="@item.ItemName" class="post-image" style="max-width: 100%;" />
+                        }
+                        else if (item.FileType.StartsWith("text/"))
+                        {
+                            <p>Text File: <a href="@Url.Content("~/uploads/" + item.FileName)" target="_blank">@item.FileName</a></p>
+                        }
+                        else
+                        {
+                            <p>File: <a href="@Url.Content("~/uploads/" + item.FileName)" target="_blank">@item.FileName</a></p>
+                        }
+                    </div>
+                }
+            </div>
+            <hr />
+        }
+    </div>
+}
+else
+{
+    <p>No data available.</p>
+}
+
+<!-- Data Entry Form -->
+<h3>Add New Item</h3>
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" name="itemName" maxlength="68" required />
+        <span id="nameCounter">0/68</span>
+        
+        <br />
+    </div>
+    <div class="form-group">
+        <label for="itemDescription">Item Description:</label>
+    <textarea id="itemDescription" name="itemDescription" maxlength="500" required></textarea>
+    <span id="descriptionCounter">0/500</span>
+
+    <br />
+    </div>
+    <div class="form-group">
+        <label for="groupSelect">Select Group</label>
+        <select class="form-control" id="groupSelect" name="GroupId" required>
+            <option value="">-- Select Group --</option>
+            @if (Model.UserGroups != null && Model.UserGroups.Any())
+            {
+                foreach (var group in Model.UserGroups)
+                {
+                    <option value="@group.GroupId">@group.GroupName</option>
+                }
+            }
+            else
+            {
+                <option value="" disabled>No groups available</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="upload">Upload File</label>
+        <input type="file" class="form-control" id="upload" name="Upload" />
+    </div>
+    <button type="submit" class="btn btn-primary">Add Item</button>
+</form>
+
+<style>
+    input[type="text"],
+    textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+</style>
+
+@section Scripts {
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+
+        // Prevent default behaviors for drag events
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+            document.body.addEventListener(eventName, preventDefaults, false);
+        });
+
+        // Highlight drop area
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, highlight, false);
+        });
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, unhighlight, false);
+        });
+
+        // Handle dropped files
+        dropZone.addEventListener('drop', handleDrop, false);
+        dropZone.addEventListener('click', () => fileInput.click());
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        function highlight() {
+            dropZone.classList.add('highlight');
+        }
+
+        function unhighlight() {
+            dropZone.classList.remove('highlight');
+        }
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            handleFiles(files);
+        }
+
+        function handleFiles(files) {
+            // Show the number of files selected
+            const fileNames = Array.from(files).map(file => file.name).join(', ');
+            console.log(`Files uploaded: ${fileNames}`);
+            fileInput.files = files;
+        }
+    </script>
+
+    <script>
+    function showMetadata(itemId) {
+        // Use fetch to get metadata from the server
+        fetch(`/MainFeed?handler=ViewItem&id=` + itemId)
+            .then(response => response.json())
+            .then(data => {
+                if (data) {
+                    // Show metadata in a pop-up
+                    alert("Item Metadata:\n\n" +
+                          "Name: " + data.itemName + "\n" +
+                          "File Size: " + data.fileSize + " bytes\n" +
+                          "File Type: " + data.fileType + "\n" +
+                          "File Name: " + data.fileName + "\n" +
+                          "Created At: " + data.createdAt);
+                } else {
+                    alert("No metadata found.");
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching metadata:", error);
+                alert("An error occurred while fetching metadata.");
+            });
+    }
+</script>
+
+
+<script>
+    // Update the character counter for itemName
+    const itemNameInput = document.getElementById('itemName');
+    const nameCounter = document.getElementById('nameCounter');
+    itemNameInput.addEventListener('input', () => {
+        nameCounter.textContent = `${itemNameInput.value.length}/68`;
+    });
+
+    // Update the character counter for description
+    const descriptionInput = document.getElementById('itemDescription');
+    const descriptionCounter = document.getElementById('descriptionCounter');
+    descriptionInput.addEventListener('input', () => {
+        descriptionCounter.textContent = `${descriptionInput.value.length}/500`;
+    });
+</script>
+
+}

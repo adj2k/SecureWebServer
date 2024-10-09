@@ -1,0 +1,70 @@
+﻿@page
+@model PendingUsersModel
+@{
+    ViewData["Title"] = "Pending and Approved Users";
+}
+
+<h2>Pending Users</h2>
+@if (Model.PendingUsers.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.PendingUsers)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>@user.Role</td>
+                    <td>
+                        <form method="post" asp-page-handler="Approve" asp-route-id="@user.UserId">
+                            <button type="submit" class="btn btn-success">Approve</button>
+                        </form>
+                        <form method="post" asp-page-handler="Reject" asp-route-id="@user.UserId">
+                            <button type="submit" class="btn btn-danger">Reject</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No pending users.</p>
+}
+
+<h2>Approved Users</h2>
+@if (Model.ApprovedUsers.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.ApprovedUsers)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <th>@user.Role</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No approved users.</p>
+}

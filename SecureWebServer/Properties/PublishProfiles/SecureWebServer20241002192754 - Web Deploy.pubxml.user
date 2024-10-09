@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6ijPNP1+W0Oep5pPMpNAIQAAAAACAAAAAAAQZgAAAAEAACAAAABD+YEzZJp0h5n8HnwSXJDl3Kh+w7m/F1t8tdjwQU7b2wAAAAAOgAAAAAIAACAAAACb7sGEbvVBzpcAtFL+qzvKkJ0EtNGd7fImKF6kIK1HnIAAAAAEdsPgCDXqe77ftRw4hnU4saTmpoiiu8CPOj+G41bc7AHf4SrKjTpml/4V5GK17XYr+CkuZi9LDSW6aW0stKGNWcgBuP6zjdDNZpmZjTQD3wA1GJL04lTb2W3Y2GM4L/nfVMeYFg5mTs9fRxL05s8uU8dV3BRwA1wWuB2IPgs7qkAAAACghuV5C0ylSZo32C0B6687D4olt+r98ix7+WR/SxFJ7kwHJo/cVDumOFfYzgyQWteQhobehvRTSkDOAcbkKvqw</EncryptedPassword>
+    <History>True|2024-10-09T03:36:16.1737712Z||;True|2024-10-08T21:45:47.5848491-05:00||;True|2024-10-06T15:08:26.1696588-05:00||;True|2024-10-05T22:29:35.0010459-05:00||;True|2024-10-05T18:12:02.7081791-05:00||;True|2024-10-04T17:47:33.2760634-05:00||;False|2024-10-04T17:46:44.5604695-05:00||;True|2024-10-04T16:22:10.7537222-05:00||;True|2024-10-04T16:18:33.8966513-05:00||;True|2024-10-04T16:04:25.9577789-05:00||;True|2024-10-04T15:47:07.3959318-05:00||;True|2024-10-04T15:04:45.0454127-05:00||;True|2024-10-04T14:58:20.0118755-05:00||;True|2024-10-04T14:52:10.0091930-05:00||;True|2024-10-04T14:46:49.3136311-05:00||;True|2024-10-04T14:01:39.5765538-05:00||;True|2024-10-02T20:44:39.2278470-05:00||;True|2024-10-02T20:37:35.7051765-05:00||;True|2024-10-02T19:38:14.0325204-05:00||;True|2024-10-02T19:36:55.6064291-05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:securewebserver.database.windows.net,1433%3bInitial Catalog=SecureWebServerAzureDB%3bUser Id=AJAdmin%40securewebserver%3bPassword=AdminPassword!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

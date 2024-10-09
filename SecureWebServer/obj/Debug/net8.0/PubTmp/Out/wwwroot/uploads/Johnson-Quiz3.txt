@@ -1,0 +1,28 @@
+Austin Johnson
+0649
+
+1.
+	a. The application would fail to open any other files, or other resources that require a file handle. 
+	b.  An application could limit the number of file handles that can be opened, or they could reuse file handles instead of creating new ones. The application could detect the issue by logging the system.
+	c. A file handle is a flag used by the operating system to manage open files or other Input/Output resources.
+
+2. 
+	a. This issue will not be statically detected because static code analysis tools don't track the values that variables have during execution, therefore the static code analysis tool will not detect that b = 0.
+	b. To mitigate the issue by checking the input of b to check that it doesn't contain 0 before dividing. You could also use a try/catch to try the division, and if it fails, you can return the program gracefully rather than crashing.
+
+3. 
+	a. The Code Segment holds the code or instructions of a program. The CPU will execute the program from this segment. The Data Segment contains data variables the program uses, like global variables.
+	b. The contents of the CS and DS reside on the RAM during execution of the program.
+
+4. The "store" function could be a potential vulnerability if the function doesn't check for an integer overflow, the values could be way to large cause an integer overflow, or on the other side, an integer underflow, having the values being too small. If I were attacking the calculator, I would input a very large number and add it to a very large number causing the tool's memory to become corrupt.
+
+5. 
+	a. A UTF-8 character can be up to 4 bytes, so if you want to limit a name to be 25 letters, you will can be safe by allocating 100 bytes of storage, assuming each character could be 4 bytes.
+	b. UTF-8 contains a more wide range of characters because it contains all Unicode Characters, where ASCII is limited to 128 characters.
+	c. Using special characters in a password could cause input handling issues, if you are using a website that doesn't allow you to use special characters, there could be unexpected issues.
+
+6. 
+	a. A fork creates a new process by duplicating the current process. The child fork returns 0.
+	b. Fork has no parameters because it is just duplicating what the parent process was doing.
+
+	

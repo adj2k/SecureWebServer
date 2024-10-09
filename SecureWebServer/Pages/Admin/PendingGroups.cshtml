@@ -1,0 +1,103 @@
+﻿@page
+@model PendingGroupsModel
+@{
+    ViewData["Title"] = "Pending Groups";
+}
+
+<h2>Pending Groups</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Group Name</th>
+            <th>Description</th>
+            <th>Creator</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.PendingGroups.Any())
+        {
+            foreach (var group in Model.PendingGroups)
+            {
+                <tr>
+                    <td>@group.GroupName</td>
+                    <td>@group.Description</td>
+                    <td>
+                        @if (Model.Usernames.ContainsKey(group.CreatorUserId))
+                        {
+                            @Model.Usernames[group.CreatorUserId]
+                        }
+                        else
+                        {
+                            <span>Unknown User</span>
+                        }
+                    </td>
+                    <td>
+                        <form method="post" asp-page-handler="ApproveGroup">
+                            <input type="hidden" name="groupId" value="@group.GroupId" />
+                            <button type="submit" class="btn btn-success">Approve</button>
+                        </form>
+                        <form method="post" asp-page-handler="DenyGroup">
+                            <input type="hidden" name="groupId" value="@group.GroupId" />
+                            <button type="submit" class="btn btn-danger">Deny</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">No pending groups.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Active Groups</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Group Name</th>
+            <th>Description</th>
+            <th>Creator</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.ActiveGroups.Any())
+        {
+            foreach (var group in Model.ActiveGroups)
+            {
+                <tr>
+                    <td>@group.GroupName</td>
+                    <td>@group.Description</td>
+                    <td>
+                        @if (Model.Usernames.ContainsKey(group.CreatorUserId))
+                        {
+                            @Model.Usernames[group.CreatorUserId]
+                        }
+                        else
+                        {
+                            <span>Unknown User</span>
+                        }
+                    </td>
+                    <td>
+                        <form method="post" asp-page-handler="DeleteGroup" style="display:inline;">
+                            <input type="hidden" name="groupId" value="@group.GroupId" />
+                            <button type="submit" class="btn btn-warning" onclick="return confirm('Are you sure you want to delete this group?');">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">No active groups.</td>
+            </tr>
+        }
+    </tbody>
+</table>

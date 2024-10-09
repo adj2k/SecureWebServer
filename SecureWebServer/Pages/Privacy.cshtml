@@ -1,0 +1,31 @@
+﻿@page
+@model SecureWebServer.Pages.PrivacyModel
+@{
+    ViewData["Title"] = "User Dashboard";
+}
+
+<h2>User Dashboard</h2>
+
+@if (User.IsInRole("admin"))
+{
+    <h3>Admin Options</h3>
+    <ul>
+        <li><a asp-page="/Admin/PendingUsers">View Pending Users</a></li>
+        <li><a asp-page="/Admin/PendingGroups">View Pending Groups</a></li>
+        <li><a asp-page="/Groups/ViewGroups">View My Groups</a></li>
+        <li><a asp-page="/Groups/CreateGroup">Create New Group</a></li>
+        
+    </ul>
+}
+else if (User.Identity.IsAuthenticated)
+{
+    <h3>General User Options</h3>
+    <ul>
+        <li><a asp-page="/Groups/ViewGroups">View My Groups</a></li>
+        <li><a asp-page="/Groups/CreateGroup">Create New Group</a></li>
+    </ul>
+}
+else
+{
+    <p>You need to log in to view the dashboard.</p>
+}

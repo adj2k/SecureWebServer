@@ -1,0 +1,51 @@
+﻿@page
+@model CreateGroupModel
+
+<h2>Create New Group</h2>
+
+<!-- Display Success or Info Message -->
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Message"]
+    </div>
+
+    @if (TempData["IsAdmin"] != null && (bool)TempData["IsAdmin"])
+    {
+        <script>
+            setTimeout(function () {
+                window.location.href = '@Url.Page("/Privacy")'; // Redirect to Privacy page after 3 seconds
+            }, 3000); // 3000 milliseconds = 3 seconds
+        </script>
+    }
+}
+
+<!-- Display Validation Errors -->
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Input.Name"></label>
+        <input asp-for="Input.Name" class="form-control" maxlength="100" />
+        <span asp-validation-for="Input.Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.Description"></label>
+        <textarea asp-for="Input.Description" class="form-control" maxlength="500"></textarea>
+        <span asp-validation-for="Input.Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Group</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

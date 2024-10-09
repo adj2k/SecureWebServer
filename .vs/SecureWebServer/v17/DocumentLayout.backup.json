@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\controller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\controller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\controller\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\controller\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\controller\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\controller\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\admin\\pendinggroups.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\admin\\pendinggroups.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\admin\\pendinggroups.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\admin\\pendinggroups.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\mainfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\mainfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\mainfeed.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\mainfeed.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\groups\\creategroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\groups\\creategroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\models\\limit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\models\\limit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\models\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\models\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\groups\\viewgroups.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\groups\\viewgroups.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\groups\\viewgroups.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\groups\\viewgroups.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|c:\\users\\austin\\source\\repos\\securewebserver\\securewebserver\\pages\\groups\\creategroup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5ACA75-D50F-41A3-B631-B89E7DA8FC3A}|SecureWebServer\\SecureWebServer.csproj|solutionrelative:securewebserver\\pages\\groups\\creategroup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Controller\\GroupsController.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Controller\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Controller\\GroupsController.cs",
+              "RelativeToolTip": "SecureWebServer\\Controller\\GroupsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:45:35.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:48:32.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\User.cs",
+              "RelativeToolTip": "SecureWebServer\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:48:01.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PendingGroups.cshtml",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Admin\\PendingGroups.cshtml",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Admin\\PendingGroups.cshtml",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Admin\\PendingGroups.cshtml",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Admin\\PendingGroups.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T19:53:06.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PendingGroups.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Admin\\PendingGroups.cshtml.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Admin\\PendingGroups.cshtml.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Admin\\PendingGroups.cshtml.cs",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Admin\\PendingGroups.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:53:40.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\Group.cs",
+              "RelativeToolTip": "SecureWebServer\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:45:13.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Controller\\AccountController.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Controller\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Controller\\AccountController.cs",
+              "RelativeToolTip": "SecureWebServer\\Controller\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:47:09.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\Item.cs",
+              "RelativeToolTip": "SecureWebServer\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:47:24.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T00:38:02.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T03:33:45.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Controller\\AdminController.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Controller\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Controller\\AdminController.cs",
+              "RelativeToolTip": "SecureWebServer\\Controller\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T03:17:37.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Program.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Program.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Program.cs",
+              "RelativeToolTip": "SecureWebServer\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T20:04:39.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateGroup.cshtml",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Groups\\CreateGroup.cshtml",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Groups\\CreateGroup.cshtml",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Groups\\CreateGroup.cshtml",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Groups\\CreateGroup.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T19:56:50.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwCYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T02:39:12.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainFeed.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\MainFeed.cshtml.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\MainFeed.cshtml.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\MainFeed.cshtml.cs",
+              "RelativeToolTip": "SecureWebServer\\Pages\\MainFeed.cshtml.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAYwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T20:00:46.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainFeed.cshtml",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\MainFeed.cshtml",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\MainFeed.cshtml",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\MainFeed.cshtml",
+              "RelativeToolTip": "SecureWebServer\\Pages\\MainFeed.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T19:59:16.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T18:47:09.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SecureWebServer\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:46:49.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Limit.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\Limit.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Models\\Limit.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\Limit.cs",
+              "RelativeToolTip": "SecureWebServer\\Models\\Limit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:47:44.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserGroup.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\UserGroup.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Models\\UserGroup.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Models\\UserGroup.cs",
+              "RelativeToolTip": "SecureWebServer\\Models\\UserGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:48:20.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateGroup.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Groups\\CreateGroup.cshtml.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Groups\\CreateGroup.cshtml.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Groups\\CreateGroup.cshtml.cs",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Groups\\CreateGroup.cshtml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:57:16.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ViewGroups.cshtml",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Groups\\ViewGroups.cshtml",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Groups\\ViewGroups.cshtml",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Groups\\ViewGroups.cshtml",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Groups\\ViewGroups.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-06T19:58:11.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ViewGroups.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Groups\\ViewGroups.cshtml.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Groups\\ViewGroups.cshtml.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Groups\\ViewGroups.cshtml.cs",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Groups\\ViewGroups.cshtml.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwFoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:58:16.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SecureWebServer\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Austin\\source\\repos\\SecureWebServer\\SecureWebServer\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "SecureWebServer\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T19:59:06.915Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
