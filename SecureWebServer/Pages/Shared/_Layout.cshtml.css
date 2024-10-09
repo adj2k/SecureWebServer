@@ -55,17 +55,16 @@ button.accept-policy {
     background-color: white;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between links and logout button */
-    padding: 10px; /* Optional padding */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .logout-button {
-    /* Optional styling for the logout button */
-    margin-left: auto; /* Pushes it to the right */
+    margin-left: auto;
     background: none;
     border: none;
     cursor: pointer;
-    color: inherit; /* Inherit color from parent */
-    text-decoration: underline; /* Underline for button look */
+    color: inherit;
+    text-decoration: underline;
 }
